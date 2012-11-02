@@ -5,6 +5,6 @@ umlsync
 
 Repository for umlsync's diagrams testing .
 
-<div class="us-diagram" repo="umlsynco/diagrams" sha="diagrams/components.json">
+<div class="us-diagram" repo="umlsynco/diagrams" sha="71e56551ca0b9a1f921a03e1978aa1bc9d84da93">
 Diagram should be here
 </div>
