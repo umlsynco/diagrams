@@ -4,8 +4,11 @@ umlsync
 Repository for the test diagrams.
 
 UMLSync demo on Youtube:
+
 http://youtu.be/F93eWYpGo7g
+
 http://www.youtube.com/watch?v=lcARcs81Ctw
+
 http://youtu.be/7Qi-d13Dpog
 
 <div id="componentDiagram" class="pack-diagram" repo="umlsynco/diagrams" sha="af62c943e2d38a8d6c7450abc81144e8935b3805">
