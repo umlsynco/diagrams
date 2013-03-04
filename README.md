@@ -1,6 +1,8 @@
 umlsync
 =======
 
+![Some text](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQjzVXwcC65JDXttHjy0ul7kFvRkrHIBFktLuJBIg20Mg65ajKLhw "Title")
+
 Repository for the test diagrams.
 
 UMLSync demo on Youtube:
