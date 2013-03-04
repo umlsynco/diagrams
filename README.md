@@ -1,7 +1,7 @@
 umlsync
 =======
 
-![Some text](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQjzVXwcC65JDXttHjy0ul7kFvRkrHIBFktLuJBIg20Mg65ajKLhw "Title")
+![Diagram: Some text](http://umlsync.org/github?path=../../diargams/class.umsync "Title")
 
 Repository for the test diagrams.
 
