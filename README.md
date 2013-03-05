@@ -1,7 +1,7 @@
 umlsync
 =======
 
-![Diagram: Some text](http://umlsync.org/github?path=../../diargams/class.umsync "Title")
+![Diagram: Some text](http://umlsync.org/github?path=diargams/componentDiagram.json "Title")
 
 Repository for the test diagrams.
 
