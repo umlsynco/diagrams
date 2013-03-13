@@ -1,6 +1,8 @@
 umlsync
 =======
 
+![Diagram: Some text](http://umlsync.org/blackboard4.jpg "Title")
+
 ![Diagram: Some text](http://umlsync.org/github?path=diagrams/componentDiagram.json "Title")
 
 Repository for the test diagrams.
