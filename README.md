@@ -1,7 +1,7 @@
 umlsync
 =======
 
-![Diagram: Some text](http://umlsync.org/blackboard4.jpg "Title")
+[![Diagram: Some text](http://umlsync.org/blackboard4.jpg "Title")](http://umlsync.org)
 
 ![Diagram: Some text](http://umlsync.org/github?path=diagrams/componentDiagram.json "Title")
 
