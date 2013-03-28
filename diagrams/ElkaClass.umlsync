@@ -31,7 +31,7 @@
 "height_o":"19.76666",
 "operations":[]
 ,"attributes":[]
-,"subdiagram":"packageDiagram.umlsync"}]
+,"subdiagrams":["packageDiagram.umlsync"]}]
 ,"connectors":[{"type":"aggregation","fromId":"0","toId":"1","epoints":[{"0":"401","1":"196"},
 {"0":"332","1":"201"},
 {"0":"407","1":"140"},

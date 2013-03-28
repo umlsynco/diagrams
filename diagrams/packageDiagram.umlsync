@@ -9,7 +9,7 @@
 "height":"229",
 "left":"173.23332084472656",
 "top":"57.23332084472656",
-"subdiagram":"classDiagram.umlsync",
+"subdiagrams":["classDiagram.umlsync"],
 "pageY":"57.23332084472656",
 "pageX":"173.23332084472656",
 "height_b":"211.76666",
@@ -26,7 +26,7 @@
 "height":"158",
 "left":"183.8000017529297",
 "top":"109.79998649414063",
-"subdiagram":"classDiagram.umlsync",
+"subdiagrams":["classDiagram.umlsync"],
 "pageY":"109.79998649414063",
 "pageX":"183.8000017529297",
 "height_b":"140.76666",
@@ -55,7 +55,7 @@
 "id":"2",
 "z-index":"103",
 "color":"#0000ff",
-"subdiagram":"./ElkaClass.umlsync"}]
+"subdiagrams":["./ElkaClass.umlsync"]}]
 ,"fullname":"/diagrams/packageDiagram.umlsync",
 "viewid":"github",
 "multicanvas":"false"}
