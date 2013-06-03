@@ -1,27 +1,102 @@
-umlsync
-=======
+Proxy pattern
+========
 
-[![Diagram: Some text](http://umlsync.org/blackboard4.jpg "Title")](http://umlsync.org)
+In computer programming, the proxy pattern is a software design pattern.
 
-![Diagram: Some text](http://umlsync.org/github?path=diagrams/componentDiagram.umlsync "Title")
+A proxy, in its most general form, is a class functioning as an interface to something else. The proxy could interface to anything: a network connection, a large object in memory, a file, or some other resource that is expensive or impossible to duplicate.
 
-Repository for the test diagrams.
+A well-known example of the proxy pattern is a reference counting pointer object.
 
-UMLSync demo on Youtube:
-
-http://youtu.be/F93eWYpGo7g
-
-http://www.youtube.com/watch?v=lcARcs81Ctw
-
-http://youtu.be/7Qi-d13Dpog
-
-<div id="componentDiagram" class="pack-diagram" repo="umlsynco/diagrams" sha="af62c943e2d38a8d6c7450abc81144e8935b3805">
-Component diagram which  is visible via UMLSync only.
-</div>
+In situations where multiple copies of a complex object must exist, the proxy pattern can be adapted to incorporate the flyweight pattern in order to reduce the application's memory footprint. Typically, one instance of the complex object and multiple proxy objects are created, all of which contain a reference to the single original complex object. Any operations performed on the proxies are forwarded to the original object. Once all instances of the proxy are out of scope, the complex object's memory may be deallocated.
 
 
-Repository for umlsync's diagrams testing .
+![Diagram: ] (http://umlsync.org/github?path=ProxyClassDiagram.umlsync "")
 
-<div id="packageDiagram" class="pack-diagram" repo="umlsynco/diagrams" sha="71e56551ca0b9a1f921a03e1978aa1bc9d84da93">
-Package diagram which  is visible via UMLSync only.
-</div>
+### Example
+
+The following Java example illustrates the "virtual proxy" pattern. The ProxyImage class is used to access a remote method.
+
+The example creates first an interface against which the pattern creates the classes. This interface contains only one method to display the image, called displayImage(), that has to be coded by all classes implementing it.
+
+The proxy class ProxyImage is running on another system than the real image class itself and can represent the real image RealImage over there. The image information is accessed from the disk. Using the proxy pattern, the code of the ProxyImage avoids multiple loading of the image, accessing it from the other system in a memory-saving manner.
+
+```
+interface Image {
+    public void displayImage();
+}
+ 
+//on System A 
+class RealImage implements Image {
+ 
+    private String filename = null;
+    /**
+     * Constructor
+     * @param FILENAME
+     */
+    public RealImage(final String FILENAME) { 
+        filename = FILENAME;
+        loadImageFromDisk();
+    }
+ 
+    /**
+     * Loads the image from the disk
+     */
+    private void loadImageFromDisk() {
+        System.out.println("Loading   " + filename);
+    }
+ 
+    /**
+     * Displays the image
+     */
+    public void displayImage() { 
+        System.out.println("Displaying " + filename); 
+    }
+ 
+}
+ 
+//on System B 
+class ProxyImage implements Image {
+ 
+    private RealImage image = null;
+    private String filename = null;
+    /**
+     * Constructor
+     * @param FILENAME
+     */
+    public ProxyImage(final String FILENAME) { 
+        filename = FILENAME; 
+    }
+ 
+    /**
+     * Displays the image
+     */
+    public void displayImage() {
+        if (image == null) {
+           image = new RealImage(filename);
+        } 
+        image.displayImage();
+    }
+ 
+}
+ 
+class ProxyExample {
+ 
+   /**
+    * Test method
+    */
+   public static void main(String[] args) {
+        final Image IMAGE1 = new ProxyImage("HiRes_10MB_Photo1");
+        final Image IMAGE2 = new ProxyImage("HiRes_10MB_Photo2");     
+ 
+        IMAGE1.displayImage(); // loading necessary
+        IMAGE1.displayImage(); // loading unnecessary
+        IMAGE2.displayImage(); // loading necessary
+        IMAGE2.displayImage(); // loading unnecessary
+        IMAGE1.displayImage(); // loading unnecessary
+    }
+ 
+}
+```
+
+
+![Diagram: ] (http://umlsync.org/github?path=sequenceDiagram124.umlsync "")
