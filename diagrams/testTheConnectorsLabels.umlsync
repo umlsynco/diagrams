@@ -4,9 +4,9 @@
 "fullname":"/diagrams/testTheConnectorsLabels.umlsync",
 "name":"diagram3",
 "viewid":"github",
-"connectors":[{"type":"aggregation","fromId":"0","toId":"1","epoints":[{"0":"319","1":"61"}],"labels":[{"name":"Label12 werwer","x":"191.1166826611328","y":"106.11665214355469"},
-{"name":"Label 2","x":"490.1166826611328","y":"81.11665214355469"},
-{"name":"undefined","x":"625.1166826611328","y":"27.11665214355469"}]}]
+"connectors":[{"type":"aggregation","fromId":"0","toId":"1","epoints":[{"0":"335.0500030517578","1":"56.58332824707031"}],"labels":[{"name":"Label12 werwer","x":"398.9999834423828","y":"26.999998701171876"},
+{"name":"Label 2","x":"488.9999834423828","y":"26.999998701171876"},
+{"name":"undefinedwer","x":"530.9999834423828","y":"27.999998701171876"}]}]
 ,"elements":[{"width":"150",
 "height":"67",
 "left":"226.1166826611328",
