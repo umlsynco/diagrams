@@ -7,8 +7,9 @@
 "connectors":[]
 ,"elements":[{"width":"139.53334",
 "height":"101.53334",
-"left":"416.1166826611328",
-"top":"56.11665214355469",
+"left":"233.99996818359375",
+"top":"103.99998344238281",
+"selected":"true",
 "type":"package",
 "title":"Package",
 "menu":"us-package-menu",
@@ -17,7 +18,7 @@
 "name":"Package11",
 "references":[]
 ,"id":"0",
-"pageX":"416.1166826611328",
-"pageY":"56.11665214355469",
+"pageX":"233.99996818359375",
+"pageY":"103.99998344238281",
 "height_b":"84.76666"}]
 }
