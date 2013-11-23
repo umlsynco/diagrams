@@ -12,6 +12,8 @@ The UmlSync tool support the several ways to insert diagram into markdown for an
 
 3. Fixed version (by sha)
 
+4. GIST-diagram
+
 An absolute path: 
 --------
 An absolute path looks like this:
@@ -55,13 +57,21 @@ There are several benefits of such approach:
 Fixed version (SHA):
 --------
 
-Similar to an absolute path idea. Uses to share with colleagues a fixed version of the diagram, insert from external repository an old diagram, 
+Similar to an absolute path idea. Uses to share with colleagues a fixed version of the diagram, insert from external repository an old diagram.
+
+And of course is is not recommended to use inside repository!
+
+_![Diagram: ] (http://umlsync.org/github/repos/umlsynco/diagrams/git/blobs/9974fbe3ef6690d32064f753d962d661b1fc7384?1385219431501 "")_
 
 ![Diagram: ] (http://umlsync.org/github/repos/umlsynco/diagrams/git/blobs/9974fbe3ef6690d32064f753d962d661b1fc7384?1385219431501 "")
 
 
 GIST:
 --------
+_![Diagram: ] (http://umlsync.org/github-gist/userId/gistId "")_
+
+GitHub has a 60-requests limit on a git repositories access for the not logged-in users.
+But there is no such limitation on GISTs. we are working on the way to create a UML widgets for the 3pp sites.
 
 
 The common way to add an embedded content into markdown
