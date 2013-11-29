@@ -70,6 +70,7 @@ But there is no such limitation on GISTs. we are working on the way to create a 
 ---
 
 The common way to add an embedded content into markdown
+---
 
 As you know it is possible to insert the references on content into gfm(github flowered markdown).
 
@@ -96,11 +97,20 @@ the next step is to drop the reference on the umlsync.org:
 _\[mime:application/vnd.xmi+xml\](../../relative/path/to/content/file "title")_
 
 BUT how to identify that content belong to Github ?
-1.storage prefix:
-_\[mime:application/vnd.xmi+xml\](github/user/repo/master/path/to/content/file "title")_
-_\[mime:application/vnd.xmi+xml\](googlecode/user/repo/master/path/to/content/file "title")_
 
-2.storage prefix:
+1.storage prefix in url:
+
+    _\[mime:application/vnd.xmi+xml\](github/user/repo/master/path/to/content/file "title")_
+    _\[mime:application/vnd.xmi+xml\](googlecode/user/repo/master/path/to/content/file "title")_
+
+2.storage prefix in the title:
+
+    _\[mime:application/vnd.xmi+xml;vnd:github/user/repo/\](../relative/path/to/content/file "title")_
+    _\[mime:application/vnd.xmi+xml;vnd:github/user/repo/\](/abs/path/to/content/file "title")_
+    _\[mime:application/vnd.xmi+xml;vnd:github/user/repo/\](sha "title")_
+    _\[mime:application/vnd.xmi+xml;vnd:github/user/GIST\](GIST "title")_
+
+
 
 
 
