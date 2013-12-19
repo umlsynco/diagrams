@@ -69,18 +69,22 @@ But there is no such limitation on GISTs. we are working on the way to create a 
 <br><br>
 ---
 
-The common way to add an embedded content into markdown
+Ideas how to extend markdown with embedded content without i-frame usage
 ---
 
 As you know it is possible to insert the references on content into gfm(github flowered markdown).
 
-But how to insert an embedded content as reference ?
+But how to insert UML diagrams and another type of content by reference ?
 
 For a one hand it is good that user have to specify the full path to the umlsync.org:
+
 1. It is clreat how to open an embedded content 
 2. From the markdown point of view it is some kind of image (which is corresponding to UML diagram specific)
 
+
+<br>
 BUT for another hand it is necessary to implement common approach for all storage service. It should be possible to:
+
 1. Change service provider (github, googlecode, bitbucket etc)
 2. Change viewer application (UMLSync etc)
 3. Identify content type and handler
