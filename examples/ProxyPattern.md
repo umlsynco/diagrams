@@ -10,7 +10,7 @@ A well-known example of the proxy pattern is a reference counting pointer object
 In situations where multiple copies of a complex object must exist, the proxy pattern can be adapted to incorporate the flyweight pattern in order to reduce the application's memory footprint. Typically, one instance of the complex object and multiple proxy objects are created, all of which contain a reference to the single original complex object. Any operations performed on the proxies are forwarded to the original object. Once all instances of the proxy are out of scope, the complex object's memory may be deallocated.
 
 
-![Diagram: ] (http://umlsync.org/github?path=ProxyPatternClassDiagram.umlsync "")
+![Diagram: ] (http://umlsync.org/github?path=./proxy_pattern/ProxyPatternClassDiagram.umlsync "")
 
 ### Example
 
@@ -99,4 +99,4 @@ class ProxyExample {
 ```
 
 
-![Diagram: ] (http://umlsync.org/github?path=ProxyPatternSequenceDiagram.umlsync "")
+![Diagram: ] (http://umlsync.org/github?path=./proxy_pattern/ProxyPatternSequenceDiagram.umlsync "")
