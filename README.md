@@ -5,6 +5,9 @@ UML editor for a software architecure lovers !
 
 Diagram.io is online UML editor that is oriented to Github. You could easily create a UML diagram in any modern Browser and commmit it to your repositoy on the GitHub.
 
+Diagram example:
+![Diagram: ] (http://umlsync.org/github?path=./examples/proxy_pattern/ProxyPatternSequenceDiagram.umlsync "")
+
 For the local clone of your Github repository you could use Eclipse plug-in which implementes HTTP WebSync API.
 
 Project values:
@@ -32,4 +35,5 @@ Additional project scope:
     3. Integration of content into markdown documentation or another content viewer/editor
     4. Widgets to embed the content viewer to the external pages (like GIST)
 
-
+One more example:
+![Diagram: ] (http://umlsync.org/github?path=./examples/diagrams/DiagramIoPackages.umlsync "")
