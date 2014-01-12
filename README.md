@@ -1,5 +1,5 @@
 
-UML editor for a software architecure lovers !
+UML editor for a software architecture lovers !
 --------
 
 
