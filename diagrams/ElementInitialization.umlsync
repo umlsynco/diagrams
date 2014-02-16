@@ -11,7 +11,7 @@
 "left":"54",
 "top":"104",
 "ctx_menu":"sequence",
-"type":"interface",
+"type":"message",
 "title":"Lost/Found Message",
 "background-color":"black",
 "menu":"us-message-menu",
