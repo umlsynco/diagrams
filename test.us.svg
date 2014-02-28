@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<svg umlsync="v1.0"><g id="elements" fill="#ECF3EC" stroke="black" stroke-width="1" style="font-size:11px;font-family:Verdana,Arial,sans-serif;">
-    <desc>{"width":"1500", "height":"1167","type":"class","base_type":"class"}</desc>
+<svg umlsync="v1.0">
+<desc>{"width":"1500", "height":"1167","type":"class","base_type":"class"}</desc>
+<g id="elements" fill="#ECF3EC" stroke="black" stroke-width="1" style="font-size:11px;font-family:Verdana,Arial,sans-serif;">
   <g id="class-0">
     <desc>{"width":"150",
           "height":"67",
