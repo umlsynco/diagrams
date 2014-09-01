@@ -38,7 +38,7 @@
 "name":"TextDocument",
 "filepath":"/DesignPatterns/CPP/proxy.cpp",
 "z-index":"102",
-"references":["../ProjectOverview.umlsync"]
+"references":["../../diagrams/Document234.md"]
 ,"methods":["TextDocument()","Insert()"]
 ,"id":"1",
 "pageY":"37.766661298828126",
