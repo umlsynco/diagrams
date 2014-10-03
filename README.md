@@ -1,6 +1,6 @@
 UML editor for a software architecture lovers !
 -------
-xxx
+
 Diagram.io is online UML editor that is oriented to Github. You could easily create a UML diagram in any modern Browser and commmit it to your repositoy on the GitHub.
 
 Diagram example: mime-type:application/vnd.umlsync.json
