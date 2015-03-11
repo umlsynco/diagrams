@@ -8,6 +8,7 @@ Diagram example: mime-type:application/vnd.umlsync.json
 For the local clone of your Github repository you could use Eclipse plug-in which implementes HTTP WebSync API.
 Project values:
 
+
 1. Minimize the creation time for a UML diagram
 2. Integrate diagrams into markdown documentation
 3. Simplify sharing diagrams and documentation with collegues
