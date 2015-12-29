@@ -5,35 +5,35 @@
         "attributes":             [            ]
 ,
         "operations":             [                            {
-                "name":"newMethod()"
+                "name":"focusContent()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"loadedContent()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"onContentBeforeClose()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"onContentClose()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"onContentSave()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"onContentSyncAll()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"onEmbeddedLoad()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"onEmbeddedUnload()"
                 }
 
             ]
@@ -52,15 +52,15 @@
         "attributes":             [            ]
 ,
         "operations":             [                            {
-                "name":"newMethod()"
+                "name":"loadContent()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"saveContent()"
                 }
 ,
                             {
-                "name":"newMethod()"
+                "name":"closeContent()"
                 }
 
             ]
@@ -103,6 +103,27 @@
             ]
 ,
         "labels":             [            ]
+
+        }
+,
+            {
+        "type":"association",
+        "fromId":1,
+        "toId":2,
+        "epoints":             [                            {
+                "x":558,
+                "y":138
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"Framework.vent",
+                "x":537,
+                "y":110
+                }
+
+            ]
 
         }
 
