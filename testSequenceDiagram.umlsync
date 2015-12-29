@@ -1,7 +1,8 @@
 {
 "base_type":"undefined",
 "type":"sequence",
-"elements":     [            {
+"elements":     [
+{
         "width":150,
         "height":342,
         "type":"objinstance",
@@ -9,10 +10,8 @@
         "left":248,
         "top":5,
         "id":1,
-        "zIndex":999
-        }
-,
-            {
+        "zIndex":999},
+{
         "type":"llport",
         "width":15,
         "height":45,
