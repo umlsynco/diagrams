@@ -1,0 +1,369 @@
+{
+"base_type":"undefined",
+"type":"class",
+"elements":     [            {
+        "attributes":             [            ]
+,
+        "operations":             [                            {
+                "name":"getContentTypeView()"
+                }
+,
+                            {
+                "name":"registerContentTypeView()"
+                }
+
+            ]
+,
+        "width":212,
+        "height":110,
+        "type":"class",
+        "name":"Framework",
+        "left":456,
+        "top":63,
+        "id":1,
+        "height_o":64
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [                            {
+                "name":"getChildView()"
+                }
+
+            ]
+,
+        "width":150,
+        "height":66,
+        "type":"class",
+        "name":"ContentTabbedView",
+        "left":132,
+        "top":187,
+        "id":2
+        }
+,
+            {
+        "type":"class",
+        "width":150,
+        "height":66,
+        "name":"Backbone.CollectionView",
+        "operations":             [            ]
+,
+        "attributes":             [            ]
+,
+        "left":128,
+        "top":5,
+        "id":3
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [                            {
+                "name":"onFocusChange()"
+                }
+,
+                            {
+                "name":"handlePast()"
+                }
+,
+                            {
+                "name":"syncUpBeforeClose()"
+                }
+,
+                            {
+                "name":"handleUndoOperation()"
+                }
+,
+                            {
+                "name":"handleRedoOperation()"
+                }
+
+            ]
+,
+        "width":303,
+        "height":130,
+        "type":"class",
+        "name":"typeView",
+        "left":824,
+        "top":112,
+        "id":5,
+        "height_o":84
+        }
+,
+            {
+        "description":"Please! Add some note here!!!",
+        "width":117,
+        "height":48,
+        "type":"note",
+        "name":"Handles tab open/close/modification etc",
+        "left":310,
+        "top":291,
+        "id":6
+        }
+,
+            {
+        "attributes":             [                            {
+                "name":"isActive"
+                }
+,
+                            {
+                "name":"isModified"
+                }
+,
+                            {
+                "name":"    ..."
+                }
+
+            ]
+,
+        "operations":             [            ]
+,
+        "width":275,
+        "height":103,
+        "type":"class",
+        "name":"typeModel",
+        "left":832,
+        "top":301,
+        "id":7,
+        "height_o":17,
+        "height_a":60
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [            ]
+,
+        "width":150,
+        "height":66,
+        "type":"class",
+        "name":"Backbone.ItemView",
+        "left":898,
+        "top":5,
+        "id":9
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [                            {
+                "name":"onRegister()"
+                }
+,
+                            {
+                "name":"onRequest()"
+                }
+,
+                            {
+                "name":"onActivate()"
+                }
+
+            ]
+,
+        "width":191,
+        "height":105,
+        "type":"class",
+        "name":"typeViewController",
+        "left":514,
+        "top":281,
+        "id":10,
+        "height_o":59
+        }
+,
+            {
+        "type":"class",
+        "width":150,
+        "height":66,
+        "name":"DiagramMenu",
+        "operations":             [            ]
+,
+        "attributes":             [            ]
+,
+        "left":219,
+        "top":420,
+        "id":11
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [            ]
+,
+        "width":150,
+        "height":66,
+        "type":"class",
+        "name":"IconMenu",
+        "left":448,
+        "top":423,
+        "id":12
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [            ]
+,
+        "width":150,
+        "height":66,
+        "type":"class",
+        "name":"ContextMenu",
+        "left":632,
+        "top":427,
+        "id":13
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"realization",
+        "fromId":2,
+        "toId":3,
+        "epoints":             [                            {
+                "x":204,
+                "y":138
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"association",
+        "fromId":2,
+        "toId":1,
+        "epoints":             [                            {
+                "x":249,
+                "y":142
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"getContentTypeView()",
+                "x":305,
+                "y":146
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"anchor",
+        "fromId":6,
+        "toId":2,
+        "epoints":             [            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"composition",
+        "fromId":7,
+        "toId":5,
+        "epoints":             [                            {
+                "x":993,
+                "y":286
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"association",
+        "fromId":1,
+        "toId":5,
+        "epoints":             [                            {
+                "x":776,
+                "y":157
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"registerContentTypeView()",
+                "x":680,
+                "y":127
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"realization",
+        "fromId":5,
+        "toId":9,
+        "epoints":             [                            {
+                "x":973,
+                "y":97
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"association",
+        "fromId":10,
+        "toId":5,
+        "epoints":             [            ]
+,
+        "labels":             [                            {
+                "name":"1..*",
+                "x":723,
+                "y":284
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"composition",
+        "fromId":11,
+        "toId":10,
+        "epoints":             [            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"composition",
+        "fromId":12,
+        "toId":10,
+        "epoints":             [                            {
+                "x":576,
+                "y":423
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"composition",
+        "fromId":13,
+        "toId":10,
+        "epoints":             [            ]
+,
+        "labels":             [            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}
