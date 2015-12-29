@@ -6,7 +6,7 @@
         "height":345,
         "type":"objinstance",
         "name":"markdownView",
-        "left":152,
+        "left":172,
         "top":5,
         "id":1,
         "zIndex":999
@@ -15,8 +15,8 @@
             {
         "type":"llport",
         "width":15,
-        "height":49,
-        "left":407,
+        "height":68,
+        "left":423,
         "top":117,
         "id":2,
         "zIndex":1009
@@ -25,7 +25,7 @@
             {
         "name":"ContentController",
         "type":"objinstance",
-        "left":337,
+        "left":353,
         "width":150,
         "height":344,
         "id":3,
@@ -36,8 +36,8 @@
             {
         "type":"llport",
         "width":15,
-        "height":42,
-        "left":222,
+        "height":27,
+        "left":242,
         "top":117,
         "id":4,
         "zIndex":1009
@@ -47,7 +47,7 @@
         "type":"llport",
         "width":15,
         "height":55,
-        "left":600,
+        "left":616,
         "top":133,
         "id":5,
         "zIndex":1009
@@ -56,7 +56,7 @@
             {
         "name":"LoadContentController",
         "type":"objinstance",
-        "left":530,
+        "left":546,
         "width":150,
         "height":320,
         "id":6,
@@ -68,7 +68,7 @@
         "type":"llport",
         "width":15,
         "height":19,
-        "left":880,
+        "left":802,
         "top":163,
         "id":8,
         "zIndex":1009
@@ -77,18 +77,19 @@
             {
         "name":"DataProvider",
         "type":"objinstance",
-        "left":810,
+        "left":732,
         "width":150,
         "height":333,
         "id":9,
-        "zIndex":999
+        "zIndex":999,
+        "top":0
         }
 ,
             {
         "type":"llport",
         "width":15,
         "height":34,
-        "left":880,
+        "left":802,
         "top":256,
         "id":11,
         "zIndex":1009
@@ -98,7 +99,7 @@
         "type":"llport",
         "width":15,
         "height":34,
-        "left":600,
+        "left":616,
         "top":256,
         "id":12,
         "zIndex":1009
@@ -108,7 +109,7 @@
         "type":"llport",
         "width":15,
         "height":49,
-        "left":407,
+        "left":423,
         "top":261,
         "id":15,
         "zIndex":1009
@@ -118,21 +119,31 @@
         "type":"llport",
         "width":15,
         "height":45,
-        "left":16,
+        "left":74,
         "top":261,
         "id":18,
         "zIndex":1009
         }
 ,
             {
-        "name":"CiContentController",
+        "name":"ContentCollection",
         "type":"objinstance",
-        "left":-54,
+        "left":4,
         "width":150,
-        "height":10,
+        "height":347,
         "id":19,
         "zIndex":999,
         "top":0
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":74,
+        "top":157,
+        "id":20,
+        "zIndex":1009
         }
 
     ]
@@ -253,7 +264,34 @@
 
             ]
 ,
-        "labels":             [            ]
+        "labels":             [                            {
+                "name":"update(data)",
+                "x":164,
+                "y":262
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":2,
+        "toId":20,
+        "epoints":             [                            {
+                "x":296,
+                "y":163
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"add(data)",
+                "x":163,
+                "y":164
+                }
+
+            ]
 
         }
 
