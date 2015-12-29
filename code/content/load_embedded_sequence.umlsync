@@ -1,0 +1,263 @@
+{
+"base_type":"undefined",
+"type":"sequence",
+"elements":     [            {
+        "width":150,
+        "height":345,
+        "type":"objinstance",
+        "name":"markdownView",
+        "left":152,
+        "top":5,
+        "id":1,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":49,
+        "left":407,
+        "top":117,
+        "id":2,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"ContentController",
+        "type":"objinstance",
+        "left":337,
+        "width":150,
+        "height":344,
+        "id":3,
+        "zIndex":999,
+        "top":0
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":42,
+        "left":222,
+        "top":117,
+        "id":4,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":55,
+        "left":600,
+        "top":133,
+        "id":5,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"LoadContentController",
+        "type":"objinstance",
+        "left":530,
+        "width":150,
+        "height":320,
+        "id":6,
+        "zIndex":999,
+        "top":0
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":19,
+        "left":880,
+        "top":163,
+        "id":8,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"DataProvider",
+        "type":"objinstance",
+        "left":810,
+        "width":150,
+        "height":333,
+        "id":9,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":34,
+        "left":880,
+        "top":256,
+        "id":11,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":34,
+        "left":600,
+        "top":256,
+        "id":12,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":49,
+        "left":407,
+        "top":261,
+        "id":15,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":45,
+        "left":16,
+        "top":261,
+        "id":18,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"CiContentController",
+        "type":"objinstance",
+        "left":-54,
+        "width":150,
+        "height":10,
+        "id":19,
+        "zIndex":999,
+        "top":0
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"llsequence",
+        "fromId":4,
+        "toId":2,
+        "epoints":             [                            {
+                "x":315,
+                "y":120
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"content:embedded:on",
+                "x":267,
+                "y":98
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":2,
+        "toId":5,
+        "epoints":             [                            {
+                "x":600,
+                "y":136
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"github:file:load",
+                "x":476,
+                "y":109
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":5,
+        "toId":8,
+        "epoints":             [                            {
+                "x":734,
+                "y":166
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"loadContent(data)",
+                "x":697,
+                "y":135
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":11,
+        "toId":12,
+        "epoints":             [                            {
+                "x":733,
+                "y":258
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"triggerContentLoaded()",
+                "x":682,
+                "y":229
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":12,
+        "toId":15,
+        "epoints":             [                            {
+                "x":501,
+                "y":270
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"content:loaded",
+                "x":493,
+                "y":252
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":15,
+        "toId":18,
+        "epoints":             [                            {
+                "x":46,
+                "y":261
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}

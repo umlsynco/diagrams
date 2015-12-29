@@ -40,6 +40,11 @@ There are two different use-cases for content-load:
 1. Load content by focus
 2. Load an embedded content or content by link
 
-Load content by focus:
------------
+#### Load content by focus:
+
 ![mime-type:application/vnd.umlsync.json] (http://umlsync.org/github?path=/code/content/content_load_sequence.umlsync "")
+
+
+#### Load embedded content:
+
+![mime-type:application/vnd.umlsync.json] (http://umlsync.org/github?path=/code/content/load_embedded_sequence.umlsync "")
