@@ -1,0 +1,151 @@
+{
+"base_type":"undefined",
+"type":"class",
+"elements":     [            {
+        "attributes":             [            ]
+,
+        "operations":             [            ]
+,
+        "width":150,
+        "height":66,
+        "type":"class",
+        "name":"LoadContentController",
+        "left":546,
+        "top":63,
+        "id":1
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [            ]
+,
+        "width":150,
+        "height":66,
+        "type":"class",
+        "name":"DataProviderController",
+        "left":546,
+        "top":177,
+        "id":2
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [            ]
+,
+        "width":150,
+        "height":66,
+        "type":"class",
+        "name":"GitHubDataProvider",
+        "left":252,
+        "top":121,
+        "id":3
+        }
+,
+            {
+        "type":"class",
+        "width":150,
+        "height":66,
+        "name":"ContentController",
+        "operations":             [            ]
+,
+        "attributes":             [            ]
+,
+        "left":909,
+        "top":54,
+        "id":4
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [            ]
+,
+        "width":150,
+        "height":66,
+        "type":"class",
+        "name":"NewContentController",
+        "left":912,
+        "top":163,
+        "id":6
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"composition",
+        "fromId":1,
+        "toId":3,
+        "epoints":             [                            {
+                "x":332,
+                "y":89
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"Content Load API",
+                "x":417,
+                "y":71
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"composition",
+        "fromId":2,
+        "toId":3,
+        "epoints":             [                            {
+                "x":334,
+                "y":232
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"Path extract API",
+                "x":405,
+                "y":205
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"dependency",
+        "fromId":4,
+        "toId":1,
+        "epoints":             [                            {
+                "x":796,
+                "y":101
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"dependency",
+        "fromId":6,
+        "toId":2,
+        "epoints":             [                            {
+                "x":787,
+                "y":217
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}
