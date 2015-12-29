@@ -1,0 +1,101 @@
+{
+"base_type":"undefined",
+"type":"sequence",
+"elements":     [            {
+        "width":150,
+        "height":342,
+        "type":"objinstance",
+        "name":"Object Instance",
+        "left":248,
+        "top":5,
+        "id":1,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":45,
+        "left":510,
+        "top":128,
+        "id":2,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"NextClass",
+        "type":"objinstance",
+        "left":440,
+        "width":150,
+        "height":341,
+        "id":3,
+        "zIndex":999,
+        "top":0
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":318,
+        "top":128,
+        "id":4,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":45,
+        "left":757,
+        "top":148,
+        "id":5,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"Class2",
+        "type":"objinstance",
+        "left":687,
+        "width":150,
+        "height":346,
+        "id":6,
+        "zIndex":999
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"llsequence",
+        "fromId":4,
+        "toId":2,
+        "epoints":             [                            {
+                "x":461,
+                "y":124
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":2,
+        "toId":5,
+        "epoints":             [                            {
+                "x":665,
+                "y":148
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}
