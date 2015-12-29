@@ -1,0 +1,112 @@
+{
+"base_type":"undefined",
+"type":"class",
+"elements":     [            {
+        "attributes":             [            ]
+,
+        "operations":             [                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+
+            ]
+,
+        "width":251,
+        "height":185,
+        "type":"class",
+        "name":"ContentController",
+        "left":734,
+        "top":45,
+        "id":1,
+        "height_o":139
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+,
+                            {
+                "name":"newMethod()"
+                }
+
+            ]
+,
+        "width":215,
+        "height":112,
+        "type":"class",
+        "name":"LoadContentController",
+        "left":208,
+        "top":63,
+        "id":2,
+        "height_o":66
+        }
+,
+            {
+        "type":"class",
+        "width":150,
+        "height":66,
+        "name":"DataProvider",
+        "operations":             [            ]
+,
+        "attributes":             [            ]
+,
+        "left":221,
+        "top":324,
+        "id":3
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"composition",
+        "fromId":3,
+        "toId":2,
+        "epoints":             [                            {
+                "x":323,
+                "y":233
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}
