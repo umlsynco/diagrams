@@ -389,7 +389,7 @@
             ]
 ,
         "labels":             [                            {
-                "name":"re-render on("chage:status");",
+                "name":"re-render on('chage:status');",
                 "x":841,
                 "y":304
                 }
