@@ -1,0 +1,404 @@
+{
+"base_type":"undefined",
+"type":"sequence",
+"elements":     [            {
+        "width":150,
+        "height":424,
+        "type":"objinstance",
+        "name":"LoadContentController",
+        "left":292,
+        "top":5,
+        "id":1,
+        "zIndex":999
+        }
+,
+            {
+        "width":150,
+        "height":433,
+        "type":"objinstance",
+        "name":"DataProviderTreeView",
+        "left":40,
+        "top":5,
+        "id":2,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":110,
+        "top":102,
+        "id":3,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":42,
+        "left":362,
+        "top":102,
+        "id":4,
+        "zIndex":1009
+        }
+,
+            {
+        "width":150,
+        "height":423,
+        "type":"objinstance",
+        "name":"ContentController",
+        "left":518,
+        "top":5,
+        "id":5,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":588,
+        "top":119,
+        "id":7,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":36,
+        "left":588,
+        "top":173,
+        "id":8,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":38,
+        "left":362,
+        "top":184,
+        "id":9,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":56,
+        "left":802,
+        "top":118,
+        "id":10,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"ContentCollection",
+        "type":"objinstance",
+        "left":710,
+        "width":194,
+        "height":425,
+        "id":11,
+        "zIndex":999,
+        "top":0
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":63,
+        "left":1021,
+        "top":128,
+        "id":13,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"ContentTabsView",
+        "type":"objinstance",
+        "left":951,
+        "width":150,
+        "height":418,
+        "id":14,
+        "zIndex":999,
+        "top":0
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":110,
+        "top":197,
+        "id":18,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":110,
+        "top":272,
+        "id":19,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":46,
+        "left":362,
+        "top":272,
+        "id":20,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":46,
+        "left":588,
+        "top":293,
+        "id":22,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":47,
+        "left":802,
+        "top":306,
+        "id":24,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":1021,
+        "top":328,
+        "id":27,
+        "zIndex":1009
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"llsequence",
+        "fromId":3,
+        "toId":4,
+        "epoints":             [                            {
+                "x":206,
+                "y":106
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"contentInFocus()",
+                "x":180,
+                "y":80
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":4,
+        "toId":7,
+        "epoints":             [                            {
+                "x":508,
+                "y":123
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"content:focus(data)",
+                "x":444,
+                "y":95
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":8,
+        "toId":9,
+        "epoints":             [                            {
+                "x":470,
+                "y":184
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"github:file:load",
+                "x":443,
+                "y":166
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":7,
+        "toId":10,
+        "epoints":             [                            {
+                "x":748,
+                "y":129
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"add(data-model)",
+                "x":661,
+                "y":103
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":10,
+        "toId":13,
+        "epoints":             [                            {
+                "x":872,
+                "y":132
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"render()",
+                "x":881,
+                "y":104
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":9,
+        "toId":18,
+        "epoints":             [                            {
+                "x":213,
+                "y":198
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"loadContent()",
+                "x":208,
+                "y":172
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":19,
+        "toId":20,
+        "epoints":             [                            {
+                "x":228,
+                "y":272
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"triggerContentLoaded()",
+                "x":202,
+                "y":254
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":20,
+        "toId":22,
+        "epoints":             [                            {
+                "x":488,
+                "y":296
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"content:loaded(data)",
+                "x":433,
+                "y":269
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":22,
+        "toId":24,
+        "epoints":             [                            {
+                "x":688,
+                "y":308
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"update(data-model)",
+                "x":644,
+                "y":286
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":24,
+        "toId":27,
+        "epoints":             [                            {
+                "x":939,
+                "y":329
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"re-render on("chage:status");",
+                "x":841,
+                "y":304
+                }
+
+            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}
