@@ -1,0 +1,177 @@
+{
+"base_type":"undefined",
+"type":"class",
+"elements":     [            {
+        "attributes":             [                            {
+                "name":"ContextMenuRegion"
+                }
+,
+                            {
+                "name":"ContextMenuRegistry"
+                }
+
+            ]
+,
+        "operations":             [                            {
+                "name":"addInitializer()"
+                }
+
+            ]
+,
+        "width":218,
+        "height":89,
+        "type":"class",
+        "name":"Framework",
+        "left":104,
+        "top":81,
+        "id":1,
+        "height_o":22,
+        "height_a":41
+        }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [                            {
+                "name":"initalize()"
+                }
+,
+                            {
+                "name":"show()"
+                }
+,
+                            {
+                "name":"addContextMenuHandler()"
+                }
+,
+                            {
+                "name":"removeContextMenuHandler()"
+                }
+
+            ]
+,
+        "width":218,
+        "height":112,
+        "type":"class",
+        "name":"ContextMenuRegistry",
+        "left":106,
+        "top":267,
+        "id":2,
+        "height_o":66
+        }
+,
+            {
+        "attributes":             [                            {
+                "name":"contentTypeList"
+                }
+
+            ]
+,
+        "operations":             [                            {
+                "name":"initialize()"
+                }
+,
+                            {
+                "name":"initializeJSON()"
+                }
+,
+                            {
+                "name":"getDataView(data)"
+                }
+
+            ]
+,
+        "width":233,
+        "height":105,
+        "type":"class",
+        "name":"DiagramContextMenu",
+        "left":532,
+        "top":75,
+        "id":3,
+        "height_o":59
+        }
+,
+            {
+        "type":"class",
+        "width":174,
+        "height":66,
+        "name":"DiagramMenuController",
+        "operations":             [                            {
+                "name":"onActivate()"
+                }
+,
+                            {
+                "name":""
+                }
+
+            ]
+,
+        "attributes":             [                            {
+                "name":"ContextMenu"
+                }
+
+            ]
+,
+        "left":538,
+        "top":297,
+        "id":4,
+        "height_o":20
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"composition",
+        "fromId":2,
+        "toId":1,
+        "epoints":             [                            {
+                "x":212,
+                "y":217
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"composition",
+        "fromId":3,
+        "toId":4,
+        "epoints":             [                            {
+                "x":598,
+                "y":260
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"registry.addContextMenuHandler()",
+                "x":379,
+                "y":264
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"association",
+        "fromId":2,
+        "toId":3,
+        "epoints":             [                            {
+                "x":432,
+                "y":222
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}
