@@ -82,6 +82,39 @@
         "height_o":46,
         "height_a":44
         }
+,
+            {
+        "attributes":             [            ]
+,
+        "operations":             [                            {
+                "name":"CreateContent()"
+                }
+,
+                            {
+                "name":"GetPathStatus(callback_function)"
+                }
+
+            ]
+,
+        "width":194,
+        "height":88,
+        "type":"class",
+        "name":"DataProviderAPI",
+        "left":932,
+        "top":247,
+        "id":5,
+        "height_o":42
+        }
+,
+            {
+        "type":"note",
+        "width":242,
+        "height":39,
+        "name":"callback = function(JSON, array, array)",
+        "left":481,
+        "top":253,
+        "id":6
+        }
 
     ]
 ,
@@ -107,6 +140,36 @@
         "epoints":             [                            {
                 "x":359,
                 "y":104
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"dependency",
+        "fromId":2,
+        "toId":5,
+        "epoints":             [                            {
+                "x":1022,
+                "y":217
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"anchor",
+        "fromId":5,
+        "toId":6,
+        "epoints":             [                            {
+                "x":795,
+                "y":285
                 }
 
             ]

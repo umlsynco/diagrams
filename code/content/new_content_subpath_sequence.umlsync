@@ -1,0 +1,217 @@
+{
+"base_type":"undefined",
+"type":"sequence",
+"elements":     [            {
+        "width":150,
+        "height":357,
+        "type":"objinstance",
+        "name":"DataProvider",
+        "left":90,
+        "top":5,
+        "id":1,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":45,
+        "left":416,
+        "top":90,
+        "id":2,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"Framework",
+        "type":"objinstance",
+        "left":346,
+        "width":150,
+        "height":361,
+        "top":5,
+        "id":3,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":160,
+        "top":88,
+        "id":4,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":39,
+        "left":734,
+        "top":114,
+        "id":5,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"newDiagramDialogView",
+        "type":"objinstance",
+        "left":664,
+        "width":150,
+        "height":352,
+        "top":5,
+        "id":6,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":24,
+        "left":734,
+        "top":186,
+        "id":7,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":130,
+        "left":160,
+        "top":186,
+        "id":8,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":22,
+        "left":734,
+        "top":235,
+        "id":12,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":36,
+        "left":734,
+        "top":280,
+        "id":15,
+        "zIndex":1009
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"llsequence",
+        "fromId":4,
+        "toId":2,
+        "epoints":             [                            {
+                "x":289,
+                "y":88
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"content:new:dialog(DataProviderAPI)",
+                "x":184,
+                "y":61
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":2,
+        "toId":5,
+        "epoints":             [                            {
+                "x":766,
+                "y":128
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"initialize(DataProviderAPI)",
+                "x":540,
+                "y":105
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":7,
+        "toId":8,
+        "epoints":             [                            {
+                "x":368,
+                "y":193
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"GetPathStatus(callback)",
+                "x":285,
+                "y":168
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":8,
+        "toId":12,
+        "epoints":             [                            {
+                "x":298,
+                "y":246
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"_onDataPathChange("loading", dirs, files)",
+                "x":284,
+                "y":219
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":8,
+        "toId":15,
+        "epoints":             [                            {
+                "x":601,
+                "y":292
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"_onDataPathChange("ok", dirs, files)",
+                "x":288,
+                "y":272
+                }
+
+            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}
