@@ -1,0 +1,121 @@
+{
+"base_type":"undefined",
+"type":"class",
+"elements":     [            {
+        "attributes":             [                            {
+                "name":"dialog"
+                }
+
+            ]
+,
+        "operations":             [                            {
+                "name":"getDialog()"
+                }
+,
+                            {
+                "name":"show()"
+                }
+,
+                            {
+                "name":"hide()"
+                }
+,
+                            {
+                "name":"initialize()"
+                }
+
+            ]
+,
+        "width":290,
+        "height":120,
+        "type":"class",
+        "name":"NewDocumentDialogController",
+        "left":458,
+        "top":45,
+        "id":1,
+        "height_o":74
+        }
+,
+            {
+        "type":"class",
+        "width":215,
+        "height":120,
+        "name":"newDiagramDialog",
+        "operations":             [            ]
+,
+        "attributes":             [            ]
+,
+        "left":914,
+        "top":44,
+        "id":2,
+        "height_o":74
+        }
+,
+            {
+        "attributes":             [                            {
+                "name":"newDocController"
+                }
+,
+                            {
+                "name":"DialogRegion"
+                }
+
+            ]
+,
+        "operations":             [                            {
+                "name":"registerContentTypeView()"
+                }
+,
+                            {
+                "name":"onContentNewDialog()"
+                }
+
+            ]
+,
+        "width":241,
+        "height":116,
+        "type":"class",
+        "name":"Framework",
+        "left":54,
+        "top":51,
+        "id":3,
+        "height_o":46,
+        "height_a":44
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"composition",
+        "fromId":2,
+        "toId":1,
+        "epoints":             [                            {
+                "x":806,
+                "y":107
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+,
+            {
+        "type":"composition",
+        "fromId":1,
+        "toId":3,
+        "epoints":             [                            {
+                "x":359,
+                "y":104
+                }
+
+            ]
+,
+        "labels":             [            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}
