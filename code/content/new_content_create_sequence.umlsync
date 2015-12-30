@@ -1,0 +1,230 @@
+{
+"base_type":"undefined",
+"type":"sequence",
+"elements":     [            {
+        "width":150,
+        "height":333,
+        "type":"objinstance",
+        "name":"DataProvider",
+        "left":140,
+        "top":5,
+        "id":1,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":53,
+        "left":450,
+        "top":104,
+        "id":2,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"Framework",
+        "type":"objinstance",
+        "left":380,
+        "width":150,
+        "height":329,
+        "top":5,
+        "id":3,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":210,
+        "top":102,
+        "id":4,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":110,
+        "left":661,
+        "top":134,
+        "id":5,
+        "zIndex":1009
+        }
+,
+            {
+        "name":"newDiagramView",
+        "type":"objinstance",
+        "left":591,
+        "width":150,
+        "height":342,
+        "top":5,
+        "id":6,
+        "zIndex":999
+        }
+,
+            {
+        "width":150,
+        "height":348,
+        "type":"objinstance",
+        "name":"ContentController",
+        "left":790,
+        "top":5,
+        "id":8,
+        "zIndex":999
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":860,
+        "top":194,
+        "id":10,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":74,
+        "left":210,
+        "top":221,
+        "id":12,
+        "zIndex":1009
+        }
+,
+            {
+        "type":"llport",
+        "width":15,
+        "height":25,
+        "left":860,
+        "top":258,
+        "id":14,
+        "zIndex":1009
+        }
+
+    ]
+,
+"connectors":     [            {
+        "type":"llsequence",
+        "fromId":4,
+        "toId":2,
+        "epoints":             [                            {
+                "x":363,
+                "y":103
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"content:new:dialog(DataLoadApi)",
+                "x":254,
+                "y":78
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":2,
+        "toId":5,
+        "epoints":             [                            {
+                "x":578,
+                "y":136
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"initialize(DataLoadApi)",
+                "x":506,
+                "y":106
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":5,
+        "toId":10,
+        "epoints":             [                            {
+                "x":787,
+                "y":199
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"content:focus",
+                "x":712,
+                "y":166
+                }
+,
+                            {
+                "name":"alt: no path defined",
+                "x":714,
+                "y":136
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":5,
+        "toId":12,
+        "epoints":             [                            {
+                "x":422,
+                "y":224
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"CreateContent(data)",
+                "x":329,
+                "y":202
+                }
+,
+                            {
+                "name":"alt: path defined",
+                "x":338,
+                "y":182
+                }
+
+            ]
+
+        }
+,
+            {
+        "type":"llsequence",
+        "fromId":12,
+        "toId":14,
+        "epoints":             [                            {
+                "x":586,
+                "y":271
+                }
+
+            ]
+,
+        "labels":             [                            {
+                "name":"content:focus",
+                "x":556,
+                "y":256
+                }
+
+            ]
+
+        }
+
+    ]
+,
+"isEmbedded":"undefined"
+}

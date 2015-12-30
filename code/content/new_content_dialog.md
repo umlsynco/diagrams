@@ -10,5 +10,6 @@ An alternative solution for AJAX could be content type view registration with th
 
 ### New content create sequence
 
+![mime-type:application/vnd.umlsync.json] (http://umlsync.org/github?path=/code/content/new_content_create_sequence.umlsync "")
 
 ### Content path auto-completion
